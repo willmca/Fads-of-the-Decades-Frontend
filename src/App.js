@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import styled from 'styled-components'
+
+const Header = styled.header`
+background-color:red;
+height:50px;
+width:100%;
+position:fixed;
+top:0;
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+`
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Header>
+      <h1>Fads through the decades</h1>
+    </Header>
     </div>
   );
 }
