@@ -1,0 +1,18 @@
+.title{
+    text-align:center;
+}
+.fads00s{
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+}
+.fadsTitle{
+    text-align: center;
+    margin-top:50px;
+}
+.fadBox{
+    background-color:whitesmoke;
+    height:400px;
+    width:400px;
+    margin: 0 auto;
+}
