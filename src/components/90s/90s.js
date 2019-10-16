@@ -7,10 +7,13 @@ import { Link } from 'react-router-dom'
 function Ninety(){
     return (
         <div className="Home">
-            <Link to="/">Home</Link>
-            <Link to="/90s">90s</Link>
-            <Link to="/00s">00s</Link>
-            <Link to="/10s">10s</Link>
+            <h1 className="title">The 90s</h1>
+            <div className="fads90s">
+                <h2 className="fadsTitle">Fads from the 90s</h2>
+                <div className="fadBox">
+                    
+                </div>
+            </div>
         </div>
     )
 }
